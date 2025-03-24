@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+
+
+
+
+
+
+body {
+    background-color:#F2E5E4 ;
+    margin: 0px;
+}
+header{
+    background-color: #F2668B;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: black;
+margin: 40px ;
+
+font-family: "Boldonse", system-ui;
+}
+nav{
+    align-items: flex-start;
+justify-content: space-between;
+display: flex;
+}
+
+footer{
+    background-color:#011F26 ;
+    color: white;
+    padding: 30px;
+}
+
+footer p{
+    text-align: center;
+    font-family: "Boldonse", system-ui;
+}
+nav img {
+    height: 150px;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: "Boldonse", system-ui;
+    font-size: 50px;
+}
+.mayorventa img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 30px;
+}
