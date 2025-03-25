@@ -31,12 +31,13 @@ display: flex;
 footer{
     background-color:#011F26 ;
     color: white;
-    padding: 30px;
+    padding: 40px;
 }
 
-footer p{
+footer {
     text-align: center;
     font-family: "Boldonse", system-ui;
+
 }
 nav img {
     height: 150px;
@@ -48,9 +49,68 @@ h1 {
     font-family: "Boldonse", system-ui;
     font-size: 50px;
 }
-.mayorventa img {
-    width: 200px;
-    height: 200px;
+
+
+
+.mayorventa  a {
+    text-decoration: none;
+    color: black;
+   font-size: 40px;
+   font-family: "Boldonse", system-ui;
+}
+
+.mayorventa button{
+    border-radius: 40px;
+   background-color: #ec4e78;
+}
+.mayorventa  {
+    font-family: "Boldonse", system-ui;
+    font-size: 20px;
+    overflow: auto;
+    margin-bottom: 30px;
+
+
+}
+.mayorventa img{
+    width: 600px;
     float: left;
     margin-right: 30px;
+    height: 500px;
+    border-radius: 20px;
 }
+
+.tarjetas{
+    margin: 20px;
+    width: 300px;
+height:400px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 10px 10px 20px white ;
+    text-align: center;
+    color: #ffffff;
+    background-color: #bd0c3b;
+    font-family: "Boldonse", system-ui;
+   
+}
+.tarjetas img{
+    width: 250px;
+    height: 200px;
+}
+.card {
+display: flex;
+justify-content: center;
+justify-content: space-evenly;
+}
+.mayorventa{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #f0aec0;
+    padding: 20px;
+}
+
+
+.card2 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    }
